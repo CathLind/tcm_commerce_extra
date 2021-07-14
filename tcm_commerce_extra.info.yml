@@ -1,7 +1,7 @@
 name: 'TCM Commerce extra'
 type: module
 description: 'Create extra functionality to Commerce in Drupal 8'
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: 'TCM'
 dependencies:
   - commerce
