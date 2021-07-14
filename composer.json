@@ -1,0 +1,13 @@
+{
+    "name": "tcm_commerce_extra/tcm_commerce_extra",
+    "description": "Changes in Commerce.",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "support": {
+        "source": "https://github.com/CathLind/tcm_commerce_extra"
+    },
+    "require": {
+        "drupal/core": "^8.8 || ^9.0"
+    },
+    "minimum-stability": "RC"
+}
