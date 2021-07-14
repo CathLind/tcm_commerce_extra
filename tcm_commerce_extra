@@ -1,0 +1,7 @@
+name: 'TCM Commerce extra'
+type: module
+description: 'Create extra functionality to Commerce in Drupal 8'
+core: 8.x
+package: 'TCM'
+dependencies:
+  - commerce
