@@ -7,7 +7,7 @@
         "source": "https://github.com/CathLind/tcm_commerce_extra"
     },
     "require": {
-        "drupal/core": "^9 | ^10"
+        "drupal/core": "^9 || ^10"
     },
     "minimum-stability": "RC"
 }
