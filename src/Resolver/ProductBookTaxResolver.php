@@ -30,7 +30,7 @@ class ProductBookTaxResolver implements TaxRateResolverInterface {
 
     // Take a rate depending on the product type.
     switch ($product_type) {
-      case 'bocker':
+      case 'books':
         $rate_id = 'reduced';
         break;
       default:
