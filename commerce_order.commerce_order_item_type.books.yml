@@ -1,0 +1,15 @@
+uuid: e91c0fc4-48be-46e5-9cc6-9bf6407878a8
+langcode: sv
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: digital_goods
+label: Books
+id: books
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false
