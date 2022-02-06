@@ -1,0 +1,8 @@
+uuid: b3e7b74a-1ea6-4dba-a88e-e0302d4f4430
+langcode: sv
+status: true
+dependencies: {  }
+id: produkt
+label: Produkt
+target_entity_type_id: commerce_product
+description: 'Kommentar för produkter'
