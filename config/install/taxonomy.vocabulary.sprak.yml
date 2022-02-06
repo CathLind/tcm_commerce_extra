@@ -1,0 +1,8 @@
+uuid: 3d66bcd5-fb63-4f71-98c6-e213b3806f37
+langcode: sv
+status: true
+dependencies: {  }
+name: Språk
+vid: sprak
+description: 'Bokens språk'
+weight: 0

@@ -1,0 +1,8 @@
+uuid: b6469f62-6254-4fa7-ab9d-0a04a65b138e
+langcode: sv
+status: true
+dependencies: {  }
+name: Add-sizes
+vid: add_sizes
+description: ''
+weight: 0

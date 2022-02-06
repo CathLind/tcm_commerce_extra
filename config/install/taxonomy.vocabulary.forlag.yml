@@ -1,0 +1,8 @@
+uuid: fcf66335-670c-49e6-9a56-6512669ff94a
+langcode: sv
+status: true
+dependencies: {  }
+name: Förlag
+vid: forlag
+description: ''
+weight: 0

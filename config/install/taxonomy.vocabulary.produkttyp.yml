@@ -1,0 +1,8 @@
+uuid: f5bdf21d-25fc-410f-a580-74b1ce68403e
+langcode: sv
+status: true
+dependencies: {  }
+name: Produkttyp
+vid: produkttyp
+description: 'Typen av produkter, styr bland annat annonser och rutor som liknande produkter'
+weight: 0

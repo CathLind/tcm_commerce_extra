@@ -1,0 +1,8 @@
+uuid: b5bcda8e-6dc0-4158-a87e-ab086ce3ce60
+langcode: sv
+status: true
+dependencies: {  }
+name: 'Typ av bok'
+vid: typ_av_bok
+description: ''
+weight: 0

@@ -1,0 +1,8 @@
+uuid: 7223e776-b545-48db-8859-51d7695dfcaa
+langcode: sv
+status: true
+dependencies: {  }
+name: Ämnesområde
+vid: amnesomrade
+description: ''
+weight: 0
