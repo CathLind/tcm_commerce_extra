@@ -1,0 +1,21 @@
+uuid: c91b77b4-783f-4a80-9943-0c83616bcd17
+langcode: sv
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.field_isbn_nummer
+field_name: field_isbn_nummer
+entity_type: commerce_product
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

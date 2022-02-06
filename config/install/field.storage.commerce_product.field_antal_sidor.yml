@@ -1,0 +1,20 @@
+uuid: 19bf3496-2b90-4e4b-ba57-0811166db30d
+langcode: sv
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.field_antal_sidor
+field_name: field_antal_sidor
+entity_type: commerce_product
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
