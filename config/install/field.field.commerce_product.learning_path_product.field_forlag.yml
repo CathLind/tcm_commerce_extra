@@ -1,0 +1,29 @@
+uuid: f0e41171-3257-41b9-a3e8-6a8f2ab3c445
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.learning_path_product
+    - field.storage.commerce_product.field_forlag
+    - taxonomy.vocabulary.forlag
+id: commerce_product.learning_path_product.field_forlag
+field_name: field_forlag
+entity_type: commerce_product
+bundle: learning_path_product
+label: Förlag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      forlag: forlag
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

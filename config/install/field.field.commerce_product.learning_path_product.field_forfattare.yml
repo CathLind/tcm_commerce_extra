@@ -1,0 +1,29 @@
+uuid: 9ccb3632-c784-438b-ab5b-228e1962ee2d
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.learning_path_product
+    - field.storage.commerce_product.field_forfattare
+    - taxonomy.vocabulary.forfattare
+id: commerce_product.learning_path_product.field_forfattare
+field_name: field_forfattare
+entity_type: commerce_product
+bundle: learning_path_product
+label: Lärare
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      forfattare: forfattare
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: d7532c47-fc3e-4e8a-b861-4d232dd66520
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.learning_path_product
+    - field.storage.commerce_product.field_amne
+    - taxonomy.vocabulary.amnesomrade
+id: commerce_product.learning_path_product.field_amne
+field_name: field_amne
+entity_type: commerce_product
+bundle: learning_path_product
+label: Ämne
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      amnesomrade: amnesomrade
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
