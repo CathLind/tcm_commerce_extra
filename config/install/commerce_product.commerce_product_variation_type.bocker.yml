@@ -1,0 +1,10 @@
+uuid: f4ebb21c-7339-4e1f-87b8-0182773ab52e
+langcode: sv
+status: true
+dependencies: {  }
+id: bocker
+label: Böcker
+orderItemType: books
+generateTitle: true
+traits: {  }
+locked: false

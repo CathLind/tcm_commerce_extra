@@ -1,0 +1,23 @@
+uuid: 275c4888-68d2-458a-8cd3-1c9eb4aefc1a
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.bocker
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.bocker.body
+field_name: body
+entity_type: commerce_product
+bundle: bocker
+label: Beskrivning
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

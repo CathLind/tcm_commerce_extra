@@ -1,0 +1,29 @@
+uuid: dd0d609e-09c3-4ddc-8b6c-320ebaf2ecff
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.bocker
+    - field.storage.commerce_product.field_typ_av_bok
+    - taxonomy.vocabulary.typ_av_bok
+id: commerce_product.bocker.field_typ_av_bok
+field_name: field_typ_av_bok
+entity_type: commerce_product
+bundle: bocker
+label: 'Typ av bok'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      typ_av_bok: typ_av_bok
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

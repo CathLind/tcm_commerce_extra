@@ -1,0 +1,29 @@
+uuid: 4d229ae2-b30f-4ead-b8a4-2c1f25473be1
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.bocker
+    - field.storage.commerce_product.field_boksidor
+    - media.type.gallery
+id: commerce_product.bocker.field_boksidor
+field_name: field_boksidor
+entity_type: commerce_product
+bundle: bocker
+label: Boksidor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      gallery: gallery
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

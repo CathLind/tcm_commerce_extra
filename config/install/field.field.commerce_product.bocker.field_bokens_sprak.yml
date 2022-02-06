@@ -1,0 +1,33 @@
+uuid: efe52318-8cf4-4e8a-ab0c-13f10d3462a4
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.bocker
+    - field.storage.commerce_product.field_bokens_sprak
+    - taxonomy.vocabulary.sprak
+  content:
+    - 'taxonomy_term:sprak:0a852579-a90b-457f-9ad8-b5d0d16f0dca'
+id: commerce_product.bocker.field_bokens_sprak
+field_name: field_bokens_sprak
+entity_type: commerce_product
+bundle: bocker
+label: 'Bokens språk'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 0a852579-a90b-457f-9ad8-b5d0d16f0dca
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sprak: sprak
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

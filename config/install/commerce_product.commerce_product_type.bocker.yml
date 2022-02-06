@@ -1,0 +1,12 @@
+uuid: 4f5c8732-8a2d-404b-a57a-5eddeb5804ab
+langcode: sv
+status: true
+dependencies: {  }
+id: bocker
+label: Böcker
+description: 'Skapa en produkt böcker.'
+variationType: books
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

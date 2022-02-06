@@ -1,0 +1,23 @@
+uuid: 108b0a2c-b20f-4902-98c0-05148710fc89
+langcode: sv
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.bocker
+    - field.storage.commerce_product.field_antal_sidor
+id: commerce_product.bocker.field_antal_sidor
+field_name: field_antal_sidor
+entity_type: commerce_product
+bundle: bocker
+label: 'Antal sidor'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
