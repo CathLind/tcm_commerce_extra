@@ -1,0 +1,29 @@
+uuid: a2489632-6751-4d12-a800-49225e64b5a2
+langcode: sv
+status: true
+dependencies:
+  config:
+    - views.view.butiken
+  module:
+    - system
+    - views
+  theme:
+    - socrates
+id: views_block__butiken_block_2
+theme: socrates
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:butiken-block_2'
+settings:
+  id: 'views_block:butiken-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /butiken
+    negate: false
