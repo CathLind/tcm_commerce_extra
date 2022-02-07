@@ -1,8 +1,0 @@
-uuid: 65afb0f6-d080-44b1-b1ce-a9fedd768913
-langcode: sv
-status: true
-dependencies: {  }
-name: 'Framsidan ordning'
-vid: framsidan_ordning
-description: 'Sorterar ordningen på framsidans annonser'
-weight: 0
