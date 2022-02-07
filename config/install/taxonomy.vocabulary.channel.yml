@@ -1,8 +1,0 @@
-uuid: 9ad46945-7ba7-4269-ac90-b5eae69ce6a1
-langcode: sv
-status: true
-dependencies: {  }
-name: Channel
-vid: channel
-description: ''
-weight: 0
