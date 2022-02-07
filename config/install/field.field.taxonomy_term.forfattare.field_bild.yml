@@ -1,0 +1,29 @@
+uuid: eca52373-17a7-4b97-9fec-da6d02eb45c9
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_bild
+    - media.type.image
+    - taxonomy.vocabulary.forfattare
+id: taxonomy_term.forfattare.field_bild
+field_name: field_bild
+entity_type: taxonomy_term
+bundle: forfattare
+label: Bild
+description: 'BIld på författaren'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
