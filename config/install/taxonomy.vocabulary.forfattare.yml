@@ -1,8 +1,0 @@
-uuid: 54d3e208-5b10-44ad-9745-4059769962c6
-langcode: sv
-status: true
-dependencies: {  }
-name: Författare
-vid: forfattare
-description: 'Namnet på författarna till våra böcker'
-weight: 0
